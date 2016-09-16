@@ -1,7 +1,6 @@
-MAINTAINER  Andreas Linz <klingt.net@gmail.com>
-
 # precompiled pandoc required glibc
 FROM frolvlad/alpine-glibc:alpine-3.4
+MAINTAINER  Andreas Linz <klingt.net@gmail.com>
 
 # enable edge repos
 RUN sed -i -e 's/v3\.4/edge/g' /etc/apk/repositories
