@@ -6,7 +6,6 @@ MAINTAINER  Andreas Linz <klingt.net@gmail.com>
 RUN sed -i -e 's/v3\.4/edge/g' /etc/apk/repositories
 
 RUN apk update\
-    && apk add\
     && apk add texlive-full\
     texlive-xetex\
     biber\
