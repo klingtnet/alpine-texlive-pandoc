@@ -15,7 +15,7 @@ RUN apk update\
     rsync\
     tar\
     libarchive-tools\
-    libgmp\
+    gmp\
     curl
 
 # install pandoc
